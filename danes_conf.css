@@ -7,6 +7,7 @@ Follow following guides/rules when editing CSS in this project:
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000000;
+  
 }
 
 header {
@@ -32,8 +33,7 @@ nav {
   justify-content: center;
   height: 70px;
   font-size: 1.5em;
-  background-color: #FFBB0D;
-  background: linear-gradient(90deg, #FF1964 0%, #FFBB0D 20%, #FFBB0D 80%, #FF1964 100%);
+  background: linear-gradient(90deg, #fff 0%, #000 20%, #000000 80%, #fff 100%);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
@@ -57,8 +57,8 @@ nav a {
 }
 
 nav a:hover {
-  color:white;
-  background-color: #FF1964;
+  color:#3368FF;
+  background-color: #fff;
   transition: all 0.5s ease;
 }
 
@@ -70,6 +70,10 @@ nav .slider {
   background-color: #47317d;
   transition: left 0.3s ease;
 }
+
+div.a {
+    line-height: 1.7;
+  }
 
 @media (max-width: 600px) {
   nav {
@@ -96,7 +100,7 @@ nav .slider {
 
 a,
 a:visited {
-  color: #1955FF;
+  color: #3368FF;
 }
 
 article,
@@ -121,13 +125,13 @@ article h3 {
   margin-bottom: 0.2em;
   font-size: 1.5em;
   font-family: monospace;
-  color: #FF1964;
+  color: #000000;
 }
 
 article h4 {
     font-size: 2em;
     font-family: monospace;
-    color: #FF1964;
+    color: #000000;
   }
 
 article h5 {
