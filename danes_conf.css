@@ -49,7 +49,7 @@ nav a {
   justify-content: center;
   align-items: center;
   flex: 1;
-  color: #000000;
+  color: #fff;
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
   font-size: 1rem;
@@ -57,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-  color:#3368FF;
+  color:#000000;
   background-color: #fff;
   transition: all 0.5s ease;
 }
@@ -98,10 +98,7 @@ div.a {
   }
 }
 
-a,
-a:visited {
-  color: #3368FF;
-}
+
 
 article,
 footer {
