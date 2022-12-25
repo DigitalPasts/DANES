@@ -75,6 +75,10 @@ div.a {
     line-height: 1.7;
   }
 
+div.b {
+    text-indent: 73pt;
+  }
+
 @media (max-width: 600px) {
   nav {
     height: 50px;
